@@ -1,3 +1,4 @@
 Perkenalkan nama saya Muhammad Syafi'i
 Saya berasal dari desa Bacin
 Umur saya 17 tahun
+Saya ingin belajar tentang git dan github
