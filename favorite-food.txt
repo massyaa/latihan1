@@ -1,0 +1,5 @@
+Makanan kesuakaan :
+	1. Hamburger
+	2. Pizza
+	3. Hotdog
+	4. Sari Roti
