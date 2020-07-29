@@ -1,8 +1,0 @@
-Makanan kesuakaan :
-	1. Hamburger
-	2. Hotdog
-	3. Sari Roti
-	4. Nasi goreng
-	5. Kue Bandung
-	6. Mie Ayam
-
