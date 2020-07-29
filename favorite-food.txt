@@ -1,7 +1,6 @@
 Makanan kesuakaan :
 	1. Hamburger
-	2. Pizza
-	3. Hotdog
-	4. Sari Roti
+	2. Hotdog
+	3. Sari Roti
+	4. Nasi goreng
 	5. Kue Bandung
-	6. Tahu Aci
