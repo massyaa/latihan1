@@ -1,1 +1,1 @@
-File ini berisi tutorial Git
+Tutorial menggunakan Git sederhana Muhammad Syafi'i
