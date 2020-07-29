@@ -3,3 +3,5 @@ Makanan kesuakaan :
 	2. Pizza
 	3. Hotdog
 	4. Sari Roti
+	5. Kue Bandung
+	6. Tahu Aci
