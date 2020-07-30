@@ -1,2 +1,3 @@
 Perkenalkan nama saya Muhammad Syafi'i
 Di repository ini akan membahas tentang tutorial git sederhana untuk memudahkan Muhammad Syafi'i
+jika ada yang kelupaan dalam menggunakan git.
