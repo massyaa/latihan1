@@ -1,2 +1,53 @@
 Tutorial menggunakan Git sederhana Muhammad Syafi'i.
 ====================================================
+
+Perintah dasar git :
+1. git init ==> Untuk menginisialisasiakn foldr menjadi repository git
+2. git add ==> Untuk menambahkan file ke staging area.
+	Contoh perintah : git add .
+	> Tanda titik disini untuk memasukan semua file yang ada di folder/repository
+	  Ke staging area.
+3. git commit ==> Untuk mengcomit file yang sudah dimasukan ke staging area.
+	Contoh perintah : git commit -m "initial commit"
+	> -m disini untuk menambahkan message nya
+	> Jika kita sudah pernah memasukan file ke staging area, kita bisa menggunakan -am
+4. git status ==> untuk mengecek file file yang ada, apakah file tersebut sudah dimasukan
+   ke staging area atau belum, di git status ini ada beberapa informasi. Yaitu, informasi mengenai
+   apakah file tersebut sudah di commit atau belum.
+5. git branch ==> untuk mengecek branch yang ada pada repository.
+   untuk membuat branch kita cukup menambahkan nama branch nya. contoh : git barnch features
+6. git checkout ==> untuk berpindah antar branch. Di git checkout kita juga bisa kembali ke commit
+   sebelumnya, dengan cara memasukan 7 hast pertama setelah git checkout.
+   > hast adalah string / kode / tanda unik yang ada pada commit.
+   > Untuk memudahkan dalam pembuatan branch dan langsung berpindah ke branch tersebut. Kita bisa
+     menggunakan perintah : git checkout -b (nama_branch)
+     > -b disini berfungsi untuk membuat dan langsung berpindah ke branch yang telah dibuat.
+7. git log ==> untuk melihat history commit yang telah dibuat. Didalam git log ini terdapat 
+   informasi hast.
+   > Untuk bisa melihat history dengan tampilan yang lebih bagus, kita bisa menggunakan perintah :
+     git log --all --decorate --oneline --graph
+     > Untuk bisa memudahkan penulisan tersebut kita bisa memasukan perintah tersebut kedalam
+       alias, dengan cara ketikan perintah :
+	alias graph="git log --all --decorate --oneline --graph"
+   > Untuk keluar dari git log kita bisa menekan "q"
+8. git merge ==> untuk menggabungkan beberapa branch. Didalam penggabungan branch ini ada yang
+   langsung jadi ada yang harus mengedit file tersebut terlebih dahulu (atau mengalami konflik).
+9. git remote ==> untuk meremote git local kita ke git online (github).
+   > Untuk menguploud git local (repositroy local) ke github. kita bisa membuka terleih dahulu
+     github kita dan buat repository baru dengan nama yang sama, tanpa menambahkan README.md
+     setelah itu kita masuk lagi ke repo local kita dan ketikan perintah :
+     $git remote add origin (link dari repository github)
+     $git push -u origin master
+	> origin disini adalah nama remote yang ingin digunakan, default nama remote adalah origin.
+	> untuk menguploud ke github nya kit gunakan perintah git push.
+	  -> untuk uploud pertama kali harus mengguanakan git push -u origin master
+		:> maksud dari origin master adalah kita akan menguploud repo tersebut kedalam
+		   remote yang bernama origin ke branch master.
+	  -> setelah uploud pertama kali, selanjutnya kita hanya mengetikkan perintah git push saja
+   > untuk menguploud file ke brach yang berbeda kita bisa menggunakan perintah :
+     git push origin (nama_branch)
+10. git fetch ==> untuk mengambil commits yang dimiliki di github tanpa lansung merge ke git local
+    contoh perintah git fetch (nama_remote)
+11. git pull ==> berfungsi untuk mengambil commits github dan langsung meng merge (menggabungan 
+    ke git local)
+
