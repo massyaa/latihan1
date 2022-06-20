@@ -50,4 +50,4 @@ Perintah dasar git :
     contoh perintah git fetch (nama_remote)
 11. git pull ==> berfungsi untuk mengambil commits github dan langsung meng merge (menggabungan 
     ke git local)
-
+12. git clone ==> untuk mengambil repo online (github) ke repo local.
